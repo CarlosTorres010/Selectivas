@@ -2,24 +2,26 @@
 using namespace std;
 
 int main() {
-    int cantidadCamisas;
-    double precioPorCamisa, subtotal, descuento, total;
+    int c;
+    double p, s, d, t;
 
-    cout << "Ingrese la cantidad de camisas: "; cin >> cantidadCamisas;
+    cout << "Ingrese la cantidad de camisas: ";
+	cin >> c;
 
-    cout << "Ingrese el precio por camisa: "; cin >> precioPorCamisa;
+    cout << "Ingrese el precio por camisa: ";
+	cin >> p;
 
-    subtotal = cantidadCamisas * precioPorCamisa;
+    s = c * p;
 
-    if (cantidadCamisas >= 3) {
-        descuento = subtotal * 0.20;  
+    if (c >= 3) {
+        d = s * 0.20;  
     } else {
-        descuento = subtotal * 0.10;  
+        d = s * 0.10;  
     }
 
-    total = subtotal - descuento;
+    t = s - d;
 
-    cout << "El total a pagar es: $" << total << endl;
+    cout << "El total a pagar es: $" << t << endl;
 
     return 0;
 }
