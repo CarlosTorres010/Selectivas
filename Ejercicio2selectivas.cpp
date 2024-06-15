@@ -1,6 +1,8 @@
+/*En un almacén se hace un 20% de descuento a los clientes cuya compra supere los 
+S/.1000 ¿Cuál será la cantidad que pagara una persona por su compra?*/
+
 #include <iostream>
 using namespace std;
-
 int main() {
     int c;
     double p, s, d, t;
