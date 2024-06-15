@@ -4,26 +4,26 @@ S/.1000 ¿Cuál será la cantidad que pagara una persona por su compra?*/
 #include <iostream>
 using namespace std;
 int main() {
-    int c;
-    double p, s, d, t;
+    int n;
+    double p, siuuuu, descuentito, money;
 
     cout << "Ingrese la cantidad de camisas: ";
-	cin >> c;
+	cin >> n;
 
     cout << "Ingrese el precio por camisa: ";
 	cin >> p;
 
-    s = c * p;
+    siuuuu = p * n;
 
-    if (c >= 3) {
-        d = s * 0.20;  
+    if (n >= 3) {
+        descuentito = siuuuu * 0.20;  
     } else {
-        d = s * 0.10;  
+        descuentito = siuuuu * 0.10;  
     }
 
-    t = s - d;
+    money = siuuuu - descuentito;
 
-    cout << "El total a pagar es: $" << t << endl;
+    cout << "El total a pagar es: $" << money << endl;
 
     return 0;
 }
