@@ -7,10 +7,10 @@ int main() {
     int n;
     double p, siuuuu, descuentito, money;
 
-    cout << "Ingrese la cantidad de camisas: ";
+    cout << "Ingrese la cantidad de ropa que va a comprar: ";
 	cin >> n;
 
-    cout << "Ingrese el precio por camisa: ";
+    cout << "Ingrese el precio por la ropa que va a comprar: ";
 	cin >> p;
 
     siuuuu = p * n;
@@ -23,7 +23,7 @@ int main() {
 
     money = siuuuu - descuentito;
 
-    cout << "El total a pagar es: $" << money << endl;
+    cout << "El total que va a pagar es: $" << money << endl;
 
     return 0;
 }
