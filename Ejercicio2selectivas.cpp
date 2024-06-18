@@ -23,7 +23,7 @@ int main() {
 
     money = siuuuu - descuentito;
 
-    cout << "El total que va a pagar es: $" << money << endl;
+    cout << "El total que usted va a cancelar es: $" << money << endl;
 
     return 0;
 }
