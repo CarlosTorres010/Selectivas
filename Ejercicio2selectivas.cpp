@@ -1,6 +1,7 @@
 /*En un almacén se hace un 20% de descuento a los clientes cuya compra supere los 
 S/.1000 ¿Cuál será la cantidad que pagara una persona por su compra?*/
 
+
 #include <iostream>
 using namespace std;
 int main() {
@@ -8,10 +9,10 @@ int main() {
     double p, siuuuu, descuentito, money;
 
     cout << "Ingrese la cantidad de ropa que va a comprar: ";
-	cin >> n;
+	cin >> n; /*Esta es la primera variable entero*/
 
     cout << "Ingrese el precio por la ropa que va a comprar: ";
-	cin >> p;
+	cin >> p; /*Esta es la segunda variable entera*/
 
     siuuuu = p * n;
 
